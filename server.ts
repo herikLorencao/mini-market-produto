@@ -1,11 +1,11 @@
-import { initNodeFederation } from '@softarc/native-federation-node';
+import {initNodeFederation} from '@softarc/native-federation-node';
 
 (async () => {
 
-  await initNodeFederation({
-    relBundlePath: '../browser/'
-  });
-  
-  await import('./bootstrap-server');
+    await initNodeFederation({
+        relBundlePath: '../browser/'
+    });
+
+    await import('./bootstrap-server');
 
 })();

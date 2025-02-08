@@ -2,7 +2,7 @@ const { withNativeFederation, shareAll } = require('@angular-architects/native-f
 
 module.exports = withNativeFederation({
 
-  name: 'mini-market-produto',
+  name: 'mini-market-product',
 
   exposes: {
     './Search': './src/app/pages/search/search.component',
